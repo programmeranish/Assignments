@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Leap.webp");
+    background-image: url("../Leap.webp");
     background-position:top;
     background-size:cover;
 }
@@ -9,6 +9,7 @@ body{
     align-items: center;
 }
 table{
+    width:100%;
     background-color: rgb(0,0,0,0.5);
     color:white;
 }
