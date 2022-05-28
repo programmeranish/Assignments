@@ -5,9 +5,17 @@ body {
   text-align: center;
   color: rgb(244, 209, 10);
 }
+a{
+  text-decoration: none;
+  color:white;
+  font-weight: 900;
+}
+a:hover{
+  color:green;
+}
 h1,
 h2 {
-  color: purple;
+  color: blueviolet;
 }
 .table-container {
   display: flex;
@@ -18,4 +26,7 @@ table {
   width: 100%;
   background-color: rgb(0, 0, 0, 0.9);
   color: white;
+}
+.info{
+  background-image: linear-gradient(red, yellow);;
 }
