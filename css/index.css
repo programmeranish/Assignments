@@ -15,7 +15,7 @@ a:hover{
 }
 h1,
 h2 {
-  color: blueviolet;
+  color: white;
 }
 .table-container {
   display: flex;
@@ -24,9 +24,19 @@ h2 {
 }
 table {
   width: 100%;
-  background-color: rgb(0, 0, 0, 0.9);
+  background-color: rgb(0, 0, 0, 0.7);
   color: white;
+  font-weight: 700;
 }
 .info{
-  background-image: linear-gradient(red, yellow);;
+  
+background-color: rgb(0, 0, 0, 0.7);  
+}
+
+tr:nth-child(even){
+  background-color:rgb(0, 0, 0, 0.5);
+}
+
+th{
+  font-size: 1.4rem;
 }
